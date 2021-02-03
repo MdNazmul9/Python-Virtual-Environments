@@ -2,7 +2,7 @@
 
 # How to connect create a Python Virtual Environment
 
-t is often useful to have one or more Python environments where you can experiment with different combinations of packages without affecting your main installation. Python supports this through virtual environments. The virtual environment is a copy of an existing version of Python with the option to inherit existing packages. A virtual environment is also useful when you need to work on a shared system and do not have permission to install packages as you will be able to install them in the virtual environment.
+It is often useful to have one or more Python environments where you can experiment with different combinations of packages without affecting your main installation. Python supports this through virtual environments. The virtual environment is a copy of an existing version of Python with the option to inherit existing packages. A virtual environment is also useful when you need to work on a shared system and do not have permission to install packages as you will be able to install them in the virtual environment.
 
 # Outline
 * Open a terminal
@@ -34,8 +34,9 @@ Check to see if your Python installation has pip. Enter the following in your te
 ```
 pip -h
 ```
-If you see the help text for pip then you have pip installed, otherwise [download and install pip]
-(https://pip.pypa.io/en/latest/installing/)
+If you see the help text for pip then you have pip installed, otherwise [download and install pip](https://pip.pypa.io/en/latest/installing/),
+
+
 
 # Install the virtualenv package
 The virtualenv package is required to create virtual environments. You can install it with pip:
