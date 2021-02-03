@@ -31,10 +31,7 @@ Open the Terminal program. This is usually found under Utilities or Accessories.
 
 # Setup the pip package manager
 Check to see if your Python installation has pip. Enter the following in your terminal:
-''' 
-pip -h
-
-'''
+''' pip -h'''
 If you see the help text for pip then you have pip installed, otherwise download and install pip
 https://pip.pypa.io/en/latest/installing/
 
